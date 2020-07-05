@@ -1,11 +1,11 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   margin: 30px;
   display: flex;
   align-items: center;
   flex-direction: column;
-`;
+`
 
 export const OriginalPost = styled.div`
   background: ${(props) => props.theme.colors.background};
@@ -17,24 +17,24 @@ export const OriginalPost = styled.div`
   display: flex;
   justify-content: space-between;
   cursor: pointer;
-`;
+`
 
 export const ImgContainer = styled.div`
   height: 25px;
   font-size: 14px;
   display: flex;
   align-items: center;
-`;
+`
 
 export const Cookie = styled.img`
   height: 100%;
-`;
+`
 
 export const CommentView = styled.div`
   margin: 10px;
   padding: 30px 0;
   width: fit-content;
-`;
+`
 
 export const SubmitComment = styled.div`
   margin: 20px 0;
@@ -59,7 +59,7 @@ export const SubmitComment = styled.div`
     color: ${(props) => props.theme.colors.text};
     cursor: pointer;
   }
-`;
+`
 
 export const Comment = styled.div`
   margin: 10px 0;
@@ -78,7 +78,7 @@ export const Comment = styled.div`
     border: 1px solid ${(props) => props.theme.colors.secundary};
     margin-top: 5px;
   }
-`;
+`
 
 export const CookieButton = styled.div`
   border: 1px solid ${(props) => props.theme.colors.text};
@@ -95,7 +95,7 @@ export const CookieButton = styled.div`
     transition: 0.5s;
     opacity: 1;
   }
-`;
+`
 
 export const Header = styled.div`
   display: flex;
@@ -115,4 +115,4 @@ export const Header = styled.div`
       opacity: 1;
     }
   }
-`;
+`

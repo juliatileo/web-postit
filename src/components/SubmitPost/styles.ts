@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   border: 1px solid ${(props) => props.theme.colors.secundary};
@@ -7,7 +7,7 @@ export const Container = styled.div`
   width: 80%;
   display: flex;
   flex-direction: column;
-`;
+`
 
 export const Input = styled.input`
   border: 1px solid ${(props) => props.theme.colors.text};
@@ -16,7 +16,7 @@ export const Input = styled.input`
   background: ${(props) => props.theme.colors.background};
   padding: 5px;
   margin: 10px 0;
-`;
+`
 
 export const Button = styled.button`
   border: 1px solid ${(props) => props.theme.colors.secundary};
@@ -26,4 +26,4 @@ export const Button = styled.button`
   color: ${(props) => props.theme.colors.text};
   cursor: pointer;
   border-radius: 6px;
-`;
+`

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   height: 80vh;
@@ -13,4 +13,4 @@ export const Container = styled.div`
     font-size: 16px;
     color: ${(props) => props.theme.colors.text};
   }
-`;
+`

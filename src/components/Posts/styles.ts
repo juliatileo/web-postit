@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Bar = styled.div`
   border: 1px solid ${(props) => props.theme.colors.secundary};
@@ -22,7 +22,7 @@ export const Bar = styled.div`
       color: #d81e5b;
     }
   }
-`;
+`
 
 export const SubmitBar = styled.div`
   border: 1px solid ${(props) => props.theme.colors.text};
@@ -41,12 +41,12 @@ export const SubmitBar = styled.div`
       outline: none;
     }
   }
-`;
+`
 
 export const Container = styled.div`
   display: flex;
   justify-content: center;
-`;
+`
 
 export const PostContainer = styled.div`
   margin: 30px;
@@ -55,7 +55,7 @@ export const PostContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1px 1px;
-`;
+`
 
 export const PostCard = styled.div`
   margin: 5px;
@@ -73,22 +73,22 @@ export const PostCard = styled.div`
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
     opacity: 10;
   }
-`;
+`
 
 export const PostTitle = styled.div`
   display: flex;
   height: 100%;
   justify-content: space-between;
   align-items: center;
-`;
+`
 
 export const ImgContainer = styled.div`
   height: 20px;
   display: flex;
   align-items: center;
-`;
+`
 
 export const Cookie = styled.img`
   height: 100%;
   margin: 0 10px;
-`;
+`

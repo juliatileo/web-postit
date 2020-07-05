@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   height: 60px;
@@ -12,14 +12,14 @@ export const Container = styled.div`
     color: white !important;
     text-decoration: none;
   }
-`;
+`
 
 export const Logo = styled.div`
   height: 50px;
   width: 50px;
   display: flex;
   align-items: center;
-`;
+`
 
 export const LogoImg = styled.img`
   cursor: pointer;
@@ -28,7 +28,7 @@ export const LogoImg = styled.img`
   :hover {
     opacity: 1;
   }
-`;
+`
 
 export const Navigation = styled.div`
   display: flex;
@@ -43,7 +43,7 @@ export const Navigation = styled.div`
   a {
     text-decoration: none;
   }
-`;
+`
 
 export const Login = styled.div`
   display: flex;
@@ -66,4 +66,4 @@ export const Login = styled.div`
       color: #fff;
     }
   }
-`;
+`

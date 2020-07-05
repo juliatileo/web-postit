@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
@@ -19,18 +19,18 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
   }
-`;
+`
 
 export const Logo = styled.div`
   height: 70px;
   width: 70px;
   margin: 10px;
-`;
+`
 
 export const LogoImg = styled.img`
   width: 100%;
   height: 100%;
-`;
+`
 
 export const Button = styled.button`
   border: 1px solid ${(props) => props.theme.colors.secundary};
@@ -42,4 +42,4 @@ export const Button = styled.button`
   :focus {
     outline: none;
   }
-`;
+`

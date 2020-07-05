@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 import usePersistedState from './utils/usePersistedState'
 import session from './services/session'
@@ -31,8 +31,7 @@ const App: React.FC = () => {
       <Router>
         <Global />
         <Header toggleTheme={toggleTheme} />
-        {session.isLogado()
-          ?
+        {session.isLogado() ? (
           <>
             <Route exact path="/" component={Home} />
             <Route path="/posts/new" component={New} />
@@ -42,17 +41,16 @@ const App: React.FC = () => {
             <Route path="/posts/comments/:id" component={Comments} />
             <Route path="/profile/:id" component={Profile} />
           </>
-          :
+        ) : (
           <>
             <Route exact path="/" component={Home} />
             <Route path="/sign-in" component={SignIn} />
             <Route path="/sign-up" component={SignUp} />
           </>
-        }
-
+        )}
       </Router>
     </ThemeProvider>
   )
 }
 
-export default App;
+export default App
